@@ -68,8 +68,8 @@ CHANNEL_LINK = "https://t.me/CAMPLOOTERS005"
 BASE_URL = "https://grainotch.theofferclub.in/"
 OTP_ENDPOINT = f"{BASE_URL}/home/generateOTP"
 # Use TEST_MOBILE from environment
-MAX_WORKERS = 20   # reduced for Render free tier; adjust as needed
-COOLDOWN_SECONDS = 90
+MAX_WORKERS = 50   # reduced for Render free tier; adjust as needed
+COOLDOWN_SECONDS = 60
 BATCH_SIZE = 500   # smaller batches for lower memory
 RECHECK_INTERVAL = 2
 
